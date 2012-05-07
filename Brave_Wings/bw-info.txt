@@ -17,7 +17,6 @@ Informations:
                Thunderthrow by Neilarmius
 
   attack icons; scimitar2.png by inferno8
-                needle.png by Madnessbane
        
 
   Omitting anything from the core folder in the default, and created by the author. 
