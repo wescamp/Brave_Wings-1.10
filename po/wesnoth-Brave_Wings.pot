@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Brave_Wings-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 20:58-0400\n"
+"POT-Creation-Date: 2012-09-14 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 #: ./Brave_Wings/_main.cfg:24
 msgid ""
 "\n"
-"Required Wesnoth version: 1.10.x (possibly playable on 1.9.12 and after)"
+"Required Wesnoth version: 1.10.x"
 msgstr ""
 
 #. [campaign]: id=Brave_Wings
@@ -160,12 +160,12 @@ msgid "Orofarnië"
 msgstr ""
 
 #. [regenerate]: id=recovery
-#: ./Brave_Wings/scenarios/01_Faith_Island.cfg:53 ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:930 ./Brave_Wings/units/Divine_Carapace.cfg:27
+#: ./Brave_Wings/scenarios/01_Faith_Island.cfg:53 ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:931 ./Brave_Wings/units/Divine_Carapace.cfg:27
 msgid "recovery"
 msgstr ""
 
 #. [regenerate]: id=recovery
-#: ./Brave_Wings/scenarios/01_Faith_Island.cfg:54 ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:931 ./Brave_Wings/units/Divine_Carapace.cfg:28
+#: ./Brave_Wings/scenarios/01_Faith_Island.cfg:54 ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:932 ./Brave_Wings/units/Divine_Carapace.cfg:28
 msgid "female^recovery"
 msgstr ""
 
@@ -317,7 +317,7 @@ msgid "Aaaack... This should not be happening!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./Brave_Wings/scenarios/01_Faith_Island.cfg:477 ./Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:550 ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1122
+#: ./Brave_Wings/scenarios/01_Faith_Island.cfg:477 ./Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:550 ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1123
 msgid "Aaaack... I am not going to talk to birds anymore."
 msgstr ""
 
@@ -1910,7 +1910,7 @@ msgstr ""
 
 #. [message]: id=Electranda
 #: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:367
-msgid "Hmmm... Wolves are howling so excitedly that I have never seen... Something is going on in the south..."
+msgid "Hmmm... Wolves are howling so excitedly that I have never heard... Something is going on in the south..."
 msgstr ""
 
 #. [message]: id=Kasii
@@ -1920,7 +1920,7 @@ msgstr ""
 
 #. [message]: id=Electranda
 #: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:395
-msgid "Hey, drakes! I am not sure either where you come from and where you are going, but I will appreciate if you help defeating those beasts. My sir, Faroteus, is in another fortress at the south of the river with the most of our soldiers, so we are less soldiers here now. You can use my keep over there, anyway."
+msgid "Hey, drakes! I am not sure either where you come from and where you are going, but I will appreciate if you help me defeating those beasts. My sir, Faroteus, is in another fortress at the south of the river with the most of our soldiers, so we are less soldiers here now. You can use my keep over there, anyway."
 msgstr ""
 
 #. [message]: id=Wyngilla
@@ -1933,92 +1933,108 @@ msgstr ""
 msgid "You can now recruit <i>Merman Hunters</i> and <i>Mermaid Initiates</i>."
 msgstr ""
 
-#. [unit]: type=Protective Carapace, id=Mavloss
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:472
+#. [unit]: type=Hunting Carapace, id=Mavloss
+#. [unit]: type=Hunting Carapace, id=Mavloss_fake
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:472 ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:527
 msgid "Mavloss"
 msgstr ""
 
-#. [message]: id=Mavloss
+#. [message]: id=Mavloss_fake
 #: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:498
 msgid "Leave me alone! I am taking a vacation, and enjoy fishing."
 msgstr ""
 
 #. [message]: id=Electranda
 #: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:502
-msgid "Greeting, Mavloss. It seems orcs are trying to gather all creatures around here in order to make them in their side. You are not going to be their side, aren't you?"
+msgid "Greeting, Mavloss. It seems orcs are trying to gather all creatures around here in order to make them turn to their side. You are not going to be their side, aren't you?"
 msgstr ""
 
-#. [message]: id=Mavloss
+#. [message]: id=Mavloss_fake
 #: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:506
 msgid ""
 "Are you serious, Electranda? Of course, I am not. As you know, I am one of the carapace-guards whose enemies are mainly orcs, trolls, and undead... \n"
-"Alright, let me help you."
+"Alright, let me help you.., but hold on a second. I need to change my carapace to the custom one for battling from this vacation version..."
+msgstr ""
+
+#. [message]: id=Kasii
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:511
+msgid "...!?"
+msgstr ""
+
+#. [message]: id=Mavloss
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:555
+msgid "Alright, now I am ready. Let's skewer them!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:530
-msgid "Uh-oh...!"
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:596
+msgid "Awoo!"
 msgstr ""
 
 #. [message]: id=Ghost_1
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:534
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:600 ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:661
 msgid "... The great lord has returned..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:538
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:604 ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:665
 msgid "The great lord...? Who is that?"
 msgstr ""
 
+#. [message]: speaker=unit
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:657
+msgid "Uh-oh...!"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:610
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:742
 msgid "Awooo! Awooo! A-woo!"
 msgstr ""
 
 #. [message]: id=Gurm
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:623
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:755
 msgid ""
 "What? Orcs will build a city for us if we help them...? \n"
-"... Sure, I will support them."
+"... Sounds good! I will support them."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:647
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:779
 msgid "Extra bonus by defeating the ogre leader."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:687
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:819
 msgid "Aaargh... Defeat them all... Then tell Faroteus... here is safe..."
 msgstr ""
 
 #. [message]: speaker=Wyngilla
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:691
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:823
 msgid "Nooo... We cannot let you die..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:704
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:836
 msgid "Aaah... I should have spent these golds..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:733
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:865
 msgid "You gain a bonus of 200 gold!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:745
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:877
 msgid "Aooooow..."
 msgstr ""
 
 #. [message]: id=Electranda
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:753
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:885
 msgid "Thanks, drakes. It seems you may have another battle on your way to the south, and I cannot leave here as my mission, so keep our soldiers with you. And tell Faroteus that here is safe, please."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:757
+#: ./Brave_Wings/scenarios/11_Mermaid_Commander.cfg:889
 msgid "Indeed, ma'am."
 msgstr ""
 
@@ -2580,78 +2596,78 @@ msgid "Haloss"
 msgstr ""
 
 #. [message]: id=Haloss
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:827
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:828
 msgid "Drakes! I will take care of the job that the mermaid was supposed to do."
 msgstr ""
 
 #. [message]: id=Mavloss
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:831
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:832
 msgid "Oooh! Master Haloss! Thanks."
 msgstr ""
 
 #. [message]: id=Haloss
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:835
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:836
 msgid "Here you are, Drake Lord!"
 msgstr ""
 
 #. [message]: id=Haloss
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:841
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:842
 msgid ""
 "Drakes! I will take care of the job that the mermaid was supposed to do.\n"
 "Here you are, Drake Lord!"
 msgstr ""
 
 #. [message]: id=Eagi_Nyess
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:865
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:866
 msgid ""
 "Good! Thank you! This is one we have been looking for even though it will take a while to be healed perfectly. \n"
 "Orofarnië, take it!"
 msgstr ""
 
 #. [regenerate]: id=recovery
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:932
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:933
 msgid ""
 "Recovery:\n"
 "                              The unit will heal itself 4 HP per turn. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
 #. [message]: id=Orofarnie
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:944
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:945
 msgid "Yes! This is the most effective potion I have ever had. Appreciate, the carapace!"
 msgstr ""
 
 #. [object]: id=put_arcane
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:956
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:957
 msgid "This water will make Orifarnië's melee weapon have the 'arcane' damage type until the end of the campaign."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:965
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:966
 msgid "Receiving by the magical potion, Orifarnië is able to get the 'arcane' damage type on his melee weapon."
 msgstr ""
 
 #. [message]: id=Kragash Varg
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:977
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:978
 msgid "Now you are worthy to face me. It will be glorious to rip you and your mongrel friends to shreds....Bwahaha."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1098
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1099
 msgid "You can recruit Fire Drakes."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1109
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1110
 msgid "Aaaack... This should never happen!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1135
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1136
 msgid "Noo, I cannot be vanquished by these pathetic cold-bloods, I am Kragash Varg!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1146
+#: ./Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1147
 msgid "I will never recognize you as my father. Back to hell with you and never come back again."
 msgstr ""
 
@@ -2845,6 +2861,31 @@ msgstr ""
 msgid "ballista"
 msgstr ""
 
+#. [unit_type]: id=Heroic Carapace, race=carapace
+#: ./Brave_Wings/units/Hero.cfg:4
+msgid "Heroic Carapace"
+msgstr ""
+
+#. [unit_type]: id=Heroic Carapace, race=carapace
+#: ./Brave_Wings/units/Hero.cfg:19
+msgid "Heroic Carapace is the warrior in the race."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./Brave_Wings/units/Hero.cfg:27 ./Brave_Wings/units/Javelin.cfg:25 ./Brave_Wings/units/Javelin.cfg:34
+msgid "trident"
+msgstr ""
+
+#. [attack]: type=impact
+#: ./Brave_Wings/units/Hero.cfg:36
+msgid "morning star"
+msgstr ""
+
+#. [attack]: type=impact
+#: ./Brave_Wings/units/Hero.cfg:45 ./Brave_Wings/units/Javelin.cfg:46
+msgid "water breath"
+msgstr ""
+
 #. [object]
 #. [unit_type]: id=Holy Water, race=mechanical
 #: ./Brave_Wings/units/Holy_Water.cfg:4 ./Brave_Wings/utils/bw-items.cfg:10
@@ -2870,6 +2911,16 @@ msgstr ""
 #. [attack]: type=pierce
 #: ./Brave_Wings/units/Hydra.cfg:29
 msgid "fangs"
+msgstr ""
+
+#. [unit_type]: id=Javelin Carapace, race=carapace
+#: ./Brave_Wings/units/Javelin.cfg:4
+msgid "Javelin Carapace"
+msgstr ""
+
+#. [unit_type]: id=Javelin Carapace, race=carapace
+#: ./Brave_Wings/units/Javelin.cfg:20
+msgid "Javelin Carapace throws the trident for his hunting jobs. Its damage is enough to give a mortal wound to his target."
 msgstr ""
 
 #. [unit_type]: id=Merman Outcast, race=undead
