@@ -9,6 +9,7 @@ Informations:
 
               Orofarnie\ rithrandil.png
               from 'The Rise of Wesnoth'
+              Drake Lord: by doofus-01
 
   unit images; Dwarvish Annalist, Dwarvish Loremaster, Bandit Chief, 
                Bandit Fighter, Bandit Thunderer
