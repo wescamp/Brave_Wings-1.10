@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Brave_Wings-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-17 04:54+0100\n"
+"POT-Creation-Date: 2013-05-10 12:19+0200\n"
 "PO-Revision-Date: 2012-02-26 17:18+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -23,17 +23,18 @@ msgid "BW"
 msgstr ""
 
 #. [campaign]: id=Brave_Wings
-#: Brave_Wings/_main.cfg:20
+#: Brave_Wings/_main.cfg:19
 msgid ""
 "On an island northwest of Wesnoth, the drakes have been living peacefully, "
 "aside from the occasional Naga skirmish. However, an unexpected guest will "
 "shake them from their time of peace and force them to fly away from their "
 "home. \n"
 "\n"
-"This is a Drake Campaign, intermediate level, with 15 scenarios, including "
-"an epilogue. All of the scenarios are playable, but this is still in the "
-"early stages, so there may be bugs or balancing issues. Any feedback on the "
-"campaign would be appreciated.\n"
+"This is a Drake Campaign, intermediate level, with 14-15 scenarios depending "
+"on the path chosen, including an epilogue. All of the scenarios are "
+"playable, but this is still in the early stages, so there may be bugs or "
+"balancing issues. Any feedback on the campaign would be appreciated.\n"
+"(this campaign includes the post story of Fate of a Princess.)\n"
 "\n"
 "Brave Wings, version:"
 msgstr ""
@@ -313,7 +314,7 @@ msgstr ""
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:271
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:543
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:198
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:780
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:792
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:145
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:528
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:776
@@ -324,7 +325,7 @@ msgstr ""
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:275
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:547
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:202
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:784
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:796
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:149
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:532
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:780
@@ -335,7 +336,7 @@ msgstr ""
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:279
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:551
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:206
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:788
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:800
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:205
 #: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:228
 #: Brave_Wings/scenarios/12_Orcish_Newport.cfg:229
@@ -418,7 +419,7 @@ msgstr ""
 
 #. [objective]: condition=win
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:539
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:768
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:780
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:451
 msgid "Defeat the enemy leader"
 msgstr ""
@@ -460,7 +461,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:833
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:883
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:895
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1153
 msgid "Aaaack... I am not going to talk to birds anymore."
 msgstr ""
@@ -540,20 +541,20 @@ msgid "Uh! What is happening to our symbol of braves."
 msgstr ""
 
 #. [message]: id=Yomi
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:149
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:152
 msgid ""
 "Aha! It has taken a long time to find this island, as my lord commanded, but "
 "today is the last day for the big lizards!"
 msgstr ""
 
 #. [message]: id=Eagi_Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:153
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:156
 msgid ""
 "What the heck are you? Whoever you are, this is our home, not yours. Be gone!"
 msgstr ""
 
 #. [message]: id=Yomi
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:157
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:160
 msgid "Hahahaha,… HUSH!…"
 msgstr ""
 
@@ -663,8 +664,15 @@ msgid ""
 "gained valuable experience each time. Prepare to be vanquished!"
 msgstr ""
 
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:774
+msgid ""
+"If you have leveled up any drakes since the beginning, one each of them has "
+"been added on your new recall list."
+msgstr ""
+
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:772
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:784
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:197
 #: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:212
 #: Brave_Wings/scenarios/12_Orcish_Newport.cfg:213
@@ -677,7 +685,7 @@ msgid "Death of Wyngilla"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:776
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:788
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:201
 #: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:216
 #: Brave_Wings/scenarios/12_Orcish_Newport.cfg:217
@@ -690,91 +698,91 @@ msgid "Death of Kasii"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:870
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:882
 msgid "Aaaack... This is the end of our island."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:896
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:908
 msgid "Aaaack... I don't believe we lost against lizards,  My Lord..."
 msgstr ""
 
 #. [message]: id=Eagi_Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:911
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:923
 msgid "Your Lord? Who is that? ... uuuh..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:915
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:927
 msgid "Are you okay, Sir?"
 msgstr ""
 
 #. [message]: id=Eagi_Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:919
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:931
 msgid "No, not really. I don't feel like I am alive. Kasii!, can you heal us?"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:923
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:935
 msgid ""
 "I am afraid not, Sir. But I have heard that dwarves, who live far in-land, "
 "can create a holy water potion that might put everyone back to normal."
 msgstr ""
 
 #. [message]: id=Orofarnie
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:927
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:939
 msgid ""
 "Inland is danger. Orcs, trolls, bandits, many different kinds of enemies "
 "exist there. Birds always say so."
 msgstr ""
 
 #. [message]: id=Eagi_Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:931
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:943
 msgid ""
 "Orofarnië is right. I cannot send our people into such danger. Wyngilla, you "
 "should take care of the island. I think I am wasting away..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:935
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:947
 msgid ""
 "But I'm not afraid of danger, Sir! If such a potion exists, I pledge to find "
 "it and bring it back to heal you and everyone!"
 msgstr ""
 
 #. [message]: id=Eagi_Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:939
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:951
 msgid ""
 "You are brave, Wyngilla, but please be cautious. Many hope that you will one "
 "day become the leader of our island."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:943
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:955
 msgid ""
 "Thank you, Sir! We will take care. \n"
 "Kasii! can you come with me? I need your knowledge to find the potion."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:948
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:960
 msgid "Of course. You can't face such danger alone."
 msgstr ""
 
 #. [message]: id=Anguiron
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:952
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:964
 msgid "Please let me come along too, Wyngilla."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:956
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:968
 msgid ""
 "All right! We leave immediately. And other strong fighters will remain here, "
 "to guard all of you, Sir."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:972
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:984
 msgid "We have taken too much time. It is over."
 msgstr ""
 
@@ -2783,21 +2791,15 @@ msgstr ""
 
 #. [message]: id=Mavloss
 #: Brave_Wings/scenarios/12_Orcish_Newport.cfg:684
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:724
 msgid ""
-"My favorite, salmons, is good around the Faith Island. Let me follow you, "
-"drakes. I don't fly, but I swim as fast as you fly on the ocean."
+"My favorite food, sharks, around the Faith Island put on fat. Can you roast "
+"them for me, drakes? I don't fly, but I swim as fast as you fly on the ocean."
 msgstr ""
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/12_Orcish_Newport.cfg:700
 msgid "Aaaagrh... why are drakes flying here...?"
-msgstr ""
-
-#. [message]: id=Mavloss
-#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:724
-msgid ""
-"My favorite, sharks, is good around the Faith Island. Can you roast them for "
-"me, drakes? I don't fly, but I swim as fast as you fly on the ocean."
 msgstr ""
 
 #. [message]: id=Kasii
@@ -3100,8 +3102,8 @@ msgstr ""
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:466
 msgid ""
 "No, Sir! We haven't lost yet! Whatever my birth father was or is, I was born "
-"on this island, and I am obligated to save everyone here. No, Sir! I cannot "
-"allow anyone to disturb our life here... not even my real father!"
+"on this island, and I am obligated to save everyone here. I cannot allow "
+"anyone to disturb our life here... not even my real father!"
 msgstr ""
 
 #. [message]: id=Kasii
@@ -4006,7 +4008,7 @@ msgid ""
 "This was soon recognized as a great victory for the Drakes. A memorial, a "
 "Flame of Braves, was built to honor the fallen Drakes and the many victims "
 "of the war. Located in the middle of the island, its perpetual flame "
-"symbolized the unflagging honor and vigilence of the Drake race. \n"
+"symbolized the unflagging honor and vigilance of the Drake race. \n"
 "\n"
 "The loss of their great leader caused the Naga survivors to lose their "
 "spirit and their unity, which naturally made them less effective in battle. "
